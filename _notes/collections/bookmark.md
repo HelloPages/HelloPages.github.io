@@ -3,6 +3,9 @@ layout: Post
 permalink: /bookmark
 title: Bookmark
 content-type: static
+format: list
+description: test
+order: 7
 ---
 
 ### Bookmark
