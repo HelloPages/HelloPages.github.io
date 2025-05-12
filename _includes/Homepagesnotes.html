@@ -1,0 +1,23 @@
+      <!-- Google服务,可以减少带宽使用并提高网络性能 -->
+<div class="home-intro">
+    <div class="jumbo">{{site.heading}} </div>
+        <div class="home-sub-text"> 
+            Snow Monkey Lab is authored by James Martin - a Salesforce Architect with over a decades experience. This site hosts a stream of ideas about Salesforce, architecture and productivity.
+        </div>
+    
+    <div class="home-notes">
+        <h3 class="home-sub-title arrow-link">
+            <span class="text"> Most Recent Notes</span>
+            <!-- <span class="arrow"><a href="{{'/notes' | relative_url}}">See All &rarr;</a></span> -->
+        </h3>
+        
+        <div class="home-wrapper">  
+            {% assign notes = site.notes | where: 'feed', 'show' | sort: 'date' | reverse %}
+            {% for note in notes limit: 5 %}
+                <div class="homelist-feed">
+                    <a href="{{ note.url }}">{{ note.title }}</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
