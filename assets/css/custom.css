@@ -1,0 +1,181 @@
+/* <p class="blue-gradient-text">这是一段线性渐蓝变紫色渐变色的文本</p> */
+.blue-gradient-text {
+  background: linear-gradient(45deg, #0000ff, #8a2be2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* <p class="linear-gradient-text">这是一段线性渐变色的文本</p> */
+ .linear-gradient-text {
+    background: linear-gradient(to right, #ff8a00, #e52e71, #1e90ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+  }
+/*   <p class="rainbow-text">基础水平彩虹渐变</p>  */ 
+.rainbow-text {
+  background: linear-gradient(90deg, 
+    #0000ff, #ff7f00, #ff0000, #00ff00,
+    #00ffff, #0000ff, #8b00ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* 备用 */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*   <p class="rainbow-text-diagonal">斜角彩虹渐变 现代霓虹渐变</p>  */ 
+.rainbow-text-diagonal {
+  background: linear-gradient(45deg, 
+    #FF3366 10%,    /* 霓虹粉 */
+    #ff0066 20%, 
+    #FFAA33 35%,    /* 橙 */
+    #33CC99 50%,    /* 青柠绿 */
+    #00008b 65%,    /* 蓝 */
+    #9933FF 80%     /* 电光紫 */
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*   <p class="rainbow-text-animated">流动彩虹动画</p>  */ 
+
+.rainbow-text-animated {
+  background: linear-gradient(90deg, 
+    #ff0000, #ff7f00, #ffff00, #00ff00,
+    #00ffff, #0000ff, #8b00ff, #ff0000);
+  background-size: 400% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: flow 5s linear infinite;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@keyframes flow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+/*  <p class="rainbow-text-vertical">垂直彩虹渐变</p>  */
+.rainbow-text-vertical {
+  background: linear-gradient(180deg, 
+    #ff0000, #ff7f00 20%, #ffff00 40%,
+    #00ff00 60%, #00ffff 80%, #0000ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*  <p class="radial-gradient-text">这是一段径向渐变色的文本</p>  */
+ .radial-gradient-text {
+    background: radial-gradient(circle, #ff8a00, #e52e71, #1e90ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+  }
+/*  <p class="rainbow-text-p">这是一段彩虹渐变色的文本</p>  */
+ .rainbow-text-p {
+    background: linear-gradient(to right, 
+      red, orange, yellow, 
+      green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+/*  <p class="vertical-gradient-text">这是一段垂直渐变色的文本</p>   */
+ .vertical-gradient-text {
+    background: linear-gradient(to bottom, #1e90ff, #ff1493);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+/*  <p class="multi-gradient-text">这是一段动画渐变色的文本，多方向渐变文本</p>   */
+ .multi-gradient-text {
+    background: linear-gradient(45deg, 
+      #ff0000, #ff7700, #ffdd00, 
+      #00ff00, #0000ff, #9900ff, 
+      #ff0099);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+
+/*   <hr class="rainbow-hr">  静态彩虹颜色   */
+ .rainbow-hr {
+    border: 0;
+    height: 2px;
+    width: 50%; /* 新增：限制宽度为50% */
+    margin: 0 auto; /* 新增：水平居中 */
+    background: linear-gradient(
+      to right,
+      #ff0000,  /* 红 */
+      #ff7f00,  /* 橙 */
+      #ffff00,  /* 黄 */
+      #00ff00,  /* 绿 */
+      #0000ff,  /* 蓝 */
+      #4b0082,  /* 靛 */
+      #8f00ff   /* 紫 */
+    );
+}
+@media (max-width: 768px) {
+  .rainbow-hr {
+    width: 50%; /* 小屏幕上宽度调整为80% */
+  }
+}
+/*  <hr class="animated-rainbow-hr"> 动态彩虹颜色   */
+.animated-rainbow-hr {
+    border: 0;
+    width: 50%; /* 修正语法错误，并设置宽度为50% */
+    height: 2px;
+    margin: 0 auto; /* 新增：水平居中 */
+    background: linear-gradient(
+      to right,
+      #ff0000,
+      #ff7f00,
+      #ffff00,
+      #00ff00,
+      #0000ff,
+      #4b0082,
+      #8f00ff
+    );
+    background-size: 200% auto; /* 扩大背景尺寸以实现动画流动 */
+    animation: rainbow-flow 2s linear infinite;
+}
+
+@keyframes rainbow-flow {
+    0% {
+        background-position: 0% 50%; /* 起始位置 */
+    }
+    100% {
+        background-position: 100% 50%; /* 结束位置 */
+    }
+}
