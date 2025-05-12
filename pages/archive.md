@@ -29,7 +29,7 @@ permalink: /archive
   </div>
 
 <div class="slot-large">
-<h2>Latest Notes</h2>
+<h2>Latest Archive</h2>
 <div class="note-list-sec">
     <ul class="note-list"> 
       {% assign non_moc_notes = site.notes | where_exp: "note", "note.category != 'MOC'" %}
