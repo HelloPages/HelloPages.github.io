@@ -1,9 +1,9 @@
 ---
-title: Topics
+title: Archive
 layout: Post
-cat-value: Topics
+cat-value: Archive
 content-type: static
-permalink: /Topics
+permalink: /archive
 ---
 
 <div class="slot-medium">
