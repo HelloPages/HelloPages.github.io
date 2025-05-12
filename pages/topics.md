@@ -1,9 +1,11 @@
 ---
 title: Topics
-layout: Static
+layout: Post
 cat-value: Topics
+content-type: static
 permalink: /Topics
 ---
+
 <div class="slot-medium">
 {% assign sorted_notes = site.notes | sort: 'category-order' %}
 {% assign first_item = true %}
