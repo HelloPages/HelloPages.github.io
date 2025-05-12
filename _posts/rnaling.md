@@ -1,6 +1,9 @@
 ---
 layout: Post
 title:  "rnaling"
+feed: show
+tag: chology
+category: posts
 permalink: /writing/rnaling
 ---
 
