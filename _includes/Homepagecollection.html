@@ -1,0 +1,31 @@
+<!-- home-Collections -->
+<div class="home-colln">
+        <h3 class="home-sub-title">
+                Collections
+        </h3> 
+        {%- include Collection.html -%}
+</div>
+
+<!-- home-Collections -->
+<div class="home-intro">
+    <div class="jumbo">{{site.heading}} </div>
+        <div class="home-sub-text"> 
+            Snow Monkey Lab is authored by James Martin - a Salesforce Architect with over a decades experience. This site hosts a stream of ideas about Salesforce, architecture and productivity.
+        </div>
+    
+    <div class="home-Collections">
+        <h3 class="home-sub-title arrow-link">
+            <span class="text"> Most Recent Collections</span>
+            <!-- <span class="arrow"><a href="{{'/collections' | relative_url}}">See All &rarr;</a></span> -->
+        </h3>
+        
+        <div class="home-wrapper">  
+            {% assign collections = site.collections | where: 'feed', 'show' | sort: 'date' | reverse %}
+            {% for note in collections limit: 5 %}
+                <div class="homelist-feed">
+                    <a href="{{ note.url }}">{{ collections.title }}</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
