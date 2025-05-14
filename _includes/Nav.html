@@ -41,6 +41,21 @@
         <a href="{{'/collections' | relative_url}}" class="navbar-item"> Collections </a>
         <a href="{{'/archive' | relative_url}}" class="navbar-item"> Archive </a>
         <a href="{{'/about' | relative_url}}" class="navbar-item"> About </a>
+          <!-- search -->
+          <div class="search-box">
+  <input type="text" id="postSearch" placeholder="搜索文章标题...">
+</div>
+
+<script>
+document.getElementById('postSearch').addEventListener('input', function(e) {
+  const searchTerm = e.target.value.toLowerCase();
+  document.querySelectorAll('.post-item').forEach(item => {
+    const title = item.querySelector('.post-title').textContent.toLowerCase();
+    item.style.display = title.includes(searchTerm) ? 'block' : 'none';
+  });
+});
+</script>
+        <!-- search -->   
       </div>
       <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
         <div class="navbar-item" style="padding-right: 0px;">
