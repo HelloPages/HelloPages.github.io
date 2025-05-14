@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: Post
+permalink: /posts
 title: 文章列表
 ---
 
