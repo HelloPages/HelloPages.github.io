@@ -70,8 +70,9 @@
                     {%- else -%}
                         {%- include Feed.html -%}
                     {%- endif -%}
-                {%- elsif page.permalink == "/notes" -%}
-                 {%- elsif page.permalink == "/post" -%}
+               <!--  {%- elsif page.permalink == "/notes" -%} -->
+                {%- elsif page.permalink == "/post" -%}
+                  {%- elsif page.permalink == "/posts" -%}
                     <!-- 2. If you have a static homepage, you can use this to configure feed page -->                
                     {%- include Feed.html -%}
                 {%- elsif page.content-type == "notes" or page.content-type == "post" -%}
