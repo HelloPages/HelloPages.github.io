@@ -39,14 +39,6 @@ permalink: /archive
 
 <div class="slot-large">
 <h2>Latest Archive</h2>
-  <!-- 按月份筛选 -->
-  {% assign months = "01,02,03,04,05,06,07,08,09,10,11,12" | split: "," %}
-<div class="month-filter">
-  {% for m in months %}
-    <button data-month="{{ m }}">{{ m }}月</button>
-  {% endfor %}
-</div>
-   <!-- 按月份筛选 -->
 <div class="note-list-sec">
     <ul class="note-list"> 
       {% assign non_moc_notes = site.notes | where_exp: "note", "note.category != 'MOC'" %}
