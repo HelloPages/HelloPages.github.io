@@ -1,7 +1,8 @@
 ---
-title: 文章归档
+title: Posts
 layout: Post
 permalink: /posts
+content-type: static
 ---
 
 <!-- 文章分类导航（可选） -->
