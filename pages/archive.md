@@ -23,7 +23,6 @@ permalink: /archive
         {% else %},
         {% endif %}
       <a href="{{ note_page.url }}">{{note_page.title}}</a><sup>{{count}}</sup>
-     <a href="{{ post_page.url }}">{{post_page.title}}</a><sup>{{count}}</sup>
       {% endif %}
     {% endif %}
   {% endfor %}
@@ -39,7 +38,6 @@ permalink: /archive
       {% for note in latest_notes %}
           <li>
               <a href="{{ note.url }}">{{ note.title }}</a>
-            <a href="{{ psot.url }}">{{ psot.title }}</a>
           </li>
       {% endfor %}
     </ul>
