@@ -75,7 +75,7 @@
                 {%- elsif page.permalink == "/posts" -%}  
                     <!-- 2. If you have a static homepage, you can use this to configure feed page -->                
                     {%- include Feed.html -%}
-                {%- elsif page.content-type == "posts" or page.content-type == "post" -%}
+                {%- elsif page.content-type == "post" or page.content-type == "post" -%}
                            <!-- posts -->
                 
                  {%- elsif page.permalink == "/notes" -%}  
