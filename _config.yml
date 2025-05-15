@@ -97,7 +97,14 @@ defaults:
       layout: Post
       content-type: notes
       
+# post test 
+# 阅读速度配置（汉字/分钟）
+reading_speed: 300
 
+# 相关文章设置
+related_posts:
+  threshold: 2
+  max_count: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default.
