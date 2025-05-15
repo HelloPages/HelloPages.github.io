@@ -97,27 +97,6 @@ defaults:
       layout: Post
       content-type: notes
 
-
-# posts test
-# 分页配置
-paginate: 12
-paginate_path: /posts/page:num/
-
-# 分类配置
-collections:
-  posts:
-    output: true
-    permalink: /posts/:year/:month/:title/
-
-# 默认文章参数
-defaults:
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
       
 
 # Exclude from processing.
