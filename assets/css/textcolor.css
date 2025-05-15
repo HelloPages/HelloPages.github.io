@@ -133,7 +133,7 @@
  .rainbow-hr {
     border: 0;
     height: 2px;
-    width: 80%; /* 新增：限制宽度为50% */
+    width: 100%; /* 新增：限制宽度为50% */
     margin: 0 auto; /* 新增：水平居中 */
     background: linear-gradient(
       to right,
@@ -148,13 +148,13 @@
 }
 @media (max-width: 768px) {
   .rainbow-hr {
-    width: 80%; /* 小屏幕上宽度调整为80% */
+    width: 100%; /* 小屏幕上宽度调整为80% */
   }
 }
 /*  <hr class="animated-rainbow-hr"> 动态彩虹颜色   */
 .animated-rainbow-hr {
     border: 0;
-    width: 80%; /* 修正语法错误，并设置宽度为50% */
+    width: 100%; /* 修正语法错误，并设置宽度为50% */
     height: 2px;
     margin: 0 auto; /* 新增：水平居中 */
     background: linear-gradient(
