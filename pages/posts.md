@@ -1,8 +1,7 @@
 ---
 layout: Post
-title: Posts
 permalink: /posts
-content-type: static
+title: Hbw Posts
 ---
 
-### posts test
+Explore my Digital Garden of evolving Posts on diverse topics, waiting to bloom over time.
