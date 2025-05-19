@@ -1,6 +1,6 @@
 ---
 layout: Post
-permalink: /posts
-title: All Posts
+permalink: /post
+title: All Post
 ---
 
