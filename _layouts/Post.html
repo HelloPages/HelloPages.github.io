@@ -73,6 +73,8 @@
 
                 <!-- posts  -->
                   {%- elsif page.permalink == "/posts" -%}  
+                   {%- if page.format == "post" -%}
+                 {%- if page.format == "posts" -%}
                            <!-- posts -->
                 
                  {%- elsif page.permalink == "/notes" -%}  
