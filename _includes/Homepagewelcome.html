@@ -17,9 +17,30 @@
 <hr width="100%" color="#a9a9a9" /> 
 <!-- posts -->
 <!-- 纯CSS实现打字效果 -->
-<div class="typing-demo-wrapper">    
-      <div class="typing-demo">      你好；欢迎来到邢同学爱折腾    </div>
-</div>          
+<div class="typewriter">CSS打字效果很有趣！</div>
+<style>
+.typewriter {
+  font-family: monospace; /* 等宽字体保证宽度准确 */
+  display: inline-block; /* 使宽度随内容扩展 */
+  overflow: hidden; 
+  white-space: nowrap; /* 禁止换行 */
+  border-right: 3px solid #000; /* 光标 */
+  letter-spacing: 2px; /* 字间距（可选） */
+  animation: 
+    typing 3s steps(16) forwards, /* 16为字符数 */
+    blink 0.8s 3s infinite; /* 延迟3秒后闪烁 */
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 16ch } /* 字符数对应的ch单位 */
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: #000; }
+}
+</style>
 <!-- 纯CSS实现打字效果结束 -->
 
 <div class="home-contact ">
