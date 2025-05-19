@@ -7,14 +7,20 @@ content-type: static
 
 <span style="color: #0000ff; font-size: 20px">苦逼的80后</span>
 
+<hr width="100%" color="#a9a9a9" /> 
+
 <p class="rainbow-text">勉强温饱</p>
 
-<p class="rainbow-text-animated">+1（国际区号）313-389-6888 SMS</p>
-
 ## +86 187********
+
+<hr class="rainbow-hr"> 
+
+<p class="rainbow-text-animated">+1（国际区号）313-389-6888 SMS</p>
 
 ## WeChat 
 WeChat;DomainsPro
 
+ <hr class="animated-rainbow-hr">
+ 
 ## E mail
 WorkGropro#Gmail.Com
