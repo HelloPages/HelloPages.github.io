@@ -1,8 +1,6 @@
 ---
-title: Posts
 layout: Post
-cat-value: posts
-content-type: static
+title: All Posts
 permalink: /posts
 ---
 
