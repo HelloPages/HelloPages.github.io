@@ -9,7 +9,7 @@ content-type: static
 
 <p class="rainbow-text">勉强温饱</p>
 
-+1（国际区号）313-389-6888 <p class="rainbow-text-animated">SMS</p>
+<p class="rainbow-text-animated">+1（国际区号）313-389-6888 SMS</p>
 
 ## +86 187********
 
