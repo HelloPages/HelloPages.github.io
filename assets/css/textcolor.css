@@ -186,7 +186,7 @@
   display: inline-block; /* 使宽度随内容扩展 */
   overflow: hidden; 
   white-space: nowrap; /* 禁止换行 */
-  border-right: 3px solid #8a2be2; /* 修改光标颜色和大小 */
+  border-right: 3px solid #0000ff; /* 修改光标颜色和大小 */
   letter-spacing: 2px; /* 字间距（可选） */
   animation: 
     typing 3s steps(30) forwards, /* 30为字符数 */
@@ -195,10 +195,10 @@
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 16ch } /* 字符数对应的ch单位 */
+  to { width: 30ch } /* 字符数对应的ch单位 */
 }
 
 @keyframes blink {
   from, to { border-color: transparent }
-  50% { border-color: #000; }
+  50% { border-color: #8a2be2; } /* 字体颜色 */
 }
