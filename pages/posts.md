@@ -1,6 +1,6 @@
 ---
 layout: Post
 permalink: /posts
-title: Hbw Posts
+title: All Posts
 ---
 
