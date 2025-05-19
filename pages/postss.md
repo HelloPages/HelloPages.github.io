@@ -1,5 +1,5 @@
 ---
-layout: Postss
+layout: Posts
 permalink: /postss
 title: Hbw Postss
 ---
