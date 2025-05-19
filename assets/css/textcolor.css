@@ -181,5 +181,3 @@
 }
 
 /*  纯CSS实现打字效果   */
-/*   <div class="typing-demo-wrapper">    <div class="typing-demo">      你好；欢迎来到邢同学爱折腾    </div></div>       */
-.typing-demo-wrapper {  height: 200px;  overflow: auto;}.typing-demo {  width: 26ch;  /* typing 3s 表示3秒内打完这13个字  blink  .5s表示0.5秒闪烁一下光标*/  animation: typing 3s steps(13), blink .5s step-end infinite alternate;  white-space: nowrap;  overflow: hidden;  /* 鼠标光标用右边的边框代替 */  border-right: 3px solid red;  font-size: 2em;}/* 实现从左到右打字效果 */@keyframes typing {  from {    width: 0  }}/* 实现鼠标闪烁效果 */@keyframes blink {  50% {    border-color: transparent  }}           
