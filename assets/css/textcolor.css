@@ -182,11 +182,13 @@
 
 /*  纯CSS实现打字效果   */
 .typewriter {
+  /* 修改字体 */
   font-family: monospace; /* 等宽字体保证宽度准确 */
   display: inline-block; /* 使宽度随内容扩展 */
   overflow: hidden; 
   white-space: nowrap; /* 禁止换行 */
   border-right: 3px solid #0000ff; /* 修改光标颜色和大小 */
+  /* 调整字间距 */
   letter-spacing: 2px; /* 字间距（可选） */
   animation: 
     typing 3s steps(30) forwards, /* 30为字符数 */
