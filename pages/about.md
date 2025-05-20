@@ -1,5 +1,5 @@
 ---
-layout: Posts
+layout: Post
 permalink: /about
 title: About
 content-type: static
