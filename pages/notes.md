@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: Posts
 permalink: /notes
 title: Hbw Notes
 ---
