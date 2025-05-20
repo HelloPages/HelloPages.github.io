@@ -66,6 +66,7 @@
                 {%- if page.permalink == "/" -%}
                     <!-- 1. Homepage. You can have a static homepage at _config.yml. Configure at homepage.html inside _includes -->                
                     {%- if site.preferences.homepage.enabled -%}
+                   <!-- Homepage Homepagecollection Homepagenotes Homepagewelcome  -->
                         {%- include Homepagewelcome.html -%}
                     {%- else -%}
                         {%- include Feed.html -%}
