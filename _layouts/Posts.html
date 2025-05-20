@@ -27,7 +27,7 @@
 ------------------------------------------------------------------------------------>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -63,19 +63,20 @@
     <!--[if IE]>
         <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
     <![endif]-->
-    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <!-- <link href="/assets/css/prism.css" rel="stylesheet" /> -->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 </head>
 
 <body>
     <main>
-    {%- include Nav.html -%}
+    {%- include Nav.html -%}  
     <section class="section">
         <div class="columns is-centered">
 
             <!-- Homepage Layout-->
             {%- if page.permalink == "/" -%}
-            <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
+           <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile"> 
+                   {%- include Nav.html -%}
                     {%- if site.preferences.homepage.enabled -%}
                             <!--- Show Homepage -->
                             {%- include Homepage.html -%}
