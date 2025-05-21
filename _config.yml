@@ -27,7 +27,7 @@ baseurl: ""
 
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
-heading: Hbw.Me # Change this 
+heading: HbwMe # Change this 
 content: 洗洗睡吧| 梦里啥都有！ 
 copyright:  
   year: Copyright © 
