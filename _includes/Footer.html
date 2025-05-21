@@ -17,4 +17,25 @@
     <p id="copyright-notice"> {{site.copyright.year}} • {{site.copyright.msg}} •  {{ site.title }} </p>
     <!-- All Copyright https://github.com/hfactor -->
 </div> 
+  <!-- 网页右侧添加横向固定文字 -->
+<style>
+.right-side-text {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg); /* 旋转文字 */
+    transform-origin: right top;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    z-index: 9999;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    white-space: nowrap;
+}
+</style>
+
+<div class="right-side-text">公告：欢迎访问我们的网站！</div>
+  <!-- 网页右侧添加横向固定文字 -->
 {%- endif -%}
