@@ -19,23 +19,25 @@
 </div> 
   <!-- 网页右侧添加横向固定文字 -->
 <style>
-.bottom-text {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    padding: 15px 30px;
-    font-size: 18px;
-    z-index: 9999;
-    background: linear-gradient(to top, rgba(0,0,0,0.7) 60%, transparent);
-    border-radius: 10px 10px 0 0;
-    text-align: center;
-    white-space: nowrap;
-    backdrop-filter: blur(3px); /* 毛玻璃效果 */
+/* 右侧悬浮文字容器样式 */
+.right-side-text {
+    position: fixed;     /* 固定定位（脱离文档流）*/
+    right: 0;            /* 紧贴浏览器右侧 */
+    top: 50%;            /* 垂直居中起点定位 */
+    transform: translateY(-50%) rotate(90deg); /* 垂直居中 + 90度顺时针旋转 */
+    transform-origin: right top; /* 设置旋转基点（右上方）*/
+    background: #FFFFFF; /* 白色背景 */
+    color: #333;        /* 黑色文字 */
+    padding: 10px 20px;  /* 内边距（垂直 水平）*/
+    font-size: 18px;     /* 文字大小 */
+    z-index: 9999;       /* 确保悬浮在最上层 */
+    cursor: pointer;     /* 鼠标悬停手型指针 */
+    border-radius: 5px 5px 0 0; /* 左上/右上圆角（旋转后实际显示为右侧圆角）*/
+    white-space: nowrap; /* 禁止文字换行 */
 }
 </style>
 
-<div class="bottom-text">提示：向下滚动发现更多内容</div>
+<!-- 悬浮文字DOM元素 -->
+<div class="right-side-text">公告：欢迎访问我们的网站！</div>
   <!-- 网页右侧添加横向固定文字 -->
 {%- endif -%}
