@@ -112,6 +112,7 @@ exclude:
   - _notes/500 Projects
   - _notes/600 Archive
   - _notes/700 Obsidian
+  - _posts/800 Posts
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
