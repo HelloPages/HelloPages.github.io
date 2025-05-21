@@ -115,8 +115,8 @@
 
                            <!-- posts -->
                    <!-- notes -->
+                                           <h5 class="meta-title"><a href="/">← Home</a></h5>
                  {%- elsif page.permalink == "/notes" -%}  
-                            <h5 class="meta-title"><a href="/">← Home</a></h5>
                     <!-- 2. If you have a static homepage, you can use this to configure feed page -->                
                     {%- include Feed.html -%}
                 {%- elsif page.content-type == "notes" or page.content-type == "post" -%}
@@ -149,8 +149,8 @@
                                 padding: 1rem 0rem;
                             }
                         </style>
-                        <div class="title-container">
                             <h5 class="meta-title"><a href="/">← Home</a></h5>
+                        <div class="title-container">
                             <div class="title-left">
                                 <div>{{ page.title }}</div>
                             </div>
