@@ -19,23 +19,23 @@
 </div> 
   <!-- 网页右侧添加横向固定文字 -->
 <style>
-.right-side-text {
+.bottom-text {
     position: fixed;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%) rotate(90deg); /* 旋转文字 */
-    transform-origin: right top;
-    background: rgba(0,0,0,0.7);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-size: 18px;
     z-index: 9999;
-    cursor: pointer;
-    border-radius: 5px 5px 0 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 60%, transparent);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
     white-space: nowrap;
+    backdrop-filter: blur(3px); /* 毛玻璃效果 */
 }
 </style>
 
-<div class="right-side-text">公告：欢迎访问我们的网站！</div>
+<div class="bottom-text">提示：向下滚动发现更多内容</div>
   <!-- 网页右侧添加横向固定文字 -->
 {%- endif -%}
