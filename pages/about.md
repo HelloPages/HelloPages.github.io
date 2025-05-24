@@ -7,7 +7,7 @@ content-type: static
 
 <span style="color: #0000ff; font-size: 20px">苦逼的80后</span>
 
-<hr class="rainbow-hr"> 
+<hr class="rainbow-hr">   
 
 <p class="rainbow-text">勉强温饱</p>
 
