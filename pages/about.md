@@ -11,7 +11,7 @@ content-type: static
 
 <p class="rainbow-text">勉强温饱</p>
 
-<h4 style="text-align: left">不逼自己学会七十二变！</h4>
+<h4 style="text-align: left rainbow-text-p">不逼自己学会七十二变！</h4>
 
 <h4 style="text-align: right">谁来替你扛这八十一难！</h4>
 
