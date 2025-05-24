@@ -204,3 +204,11 @@
   from, to { border-color: transparent }
   50% { border-color: #8a2be2; } /* 字体颜色 */
 }
+
+<!-- 左对齐（默认） -->
+ .align-left   { text-align: left; }
+<!-- 右对齐 -->
+  .align-right  { text-align: right; }
+<!-- 居中对齐 -->
+  .align-center { text-align: center; }
+
