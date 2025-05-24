@@ -9,9 +9,9 @@ content-type: static
 
 <hr class="rainbow-hr"> 
 
-<p class="rainbow-text right">勉强温饱</p>
+<p class="rainbow-text">勉强温饱</p>
 
-<div style="text-align: right"> 不逼自己学会七十二变！</div>
+<div style="text-align: left"> 不逼自己学会七十二变！</div>
 
 <h4 style="text-align: right">谁来替你扛这八十一难！</h4>
 
