@@ -1,7 +1,8 @@
 ---
 layout: Post
 permalink: /home
-title: Hbw.Me Home
+title:  Home
+content-type: static
 ---
 
 ### Community Templates
