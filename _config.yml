@@ -90,7 +90,7 @@ defaults:
       type: posts
     values:
       layout: Post
-      permalink: /post/:title
+      permalink: /posts/:title
       content-type: post
   - scope:
       path: ""
