@@ -2,7 +2,7 @@
 ---
 
 <!-------------------------------------------------------------------------------------
-*          <!--     {%- include Homepagewelcome.html -%}  -->  
+*         
 * MIT License
 * Copyright (c) 2020 Raghuveer S, Hiran Venugopalan, Asim K T
 *
@@ -68,7 +68,7 @@
                     {%- if site.preferences.homepage.enabled -%}
                    <!-- Homepage Homepagecollection Homepagenotes Homepagewelcome Homepageposts -->
                            <!-- home home page  -->
-            
+               {%- include Homepagewelcome.html -%}  
                     {%- else -%}
                         {%- include Feed.html -%}
                     {%- endif -%}
