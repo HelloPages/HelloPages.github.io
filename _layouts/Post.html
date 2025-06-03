@@ -53,12 +53,47 @@
     <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 <!-- 百度 统计 分析 -->
+   <style>
+    .circles{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;margin:0;padding:0;}
+    .circles li{position:absolute;display:block;list-style:none;width:20px;height:20px;background:rgb(141 163 253);animation:animate 25s linear infinite;bottom:-150px;}
+    .circles li:nth-child(1){left:25%;width:80px;height:80px;animation-delay:0s;}
+    .circles li:nth-child(2){left:10%;width:20px;height:20px;animation-delay:2s;animation-duration:12s;}
+    .circles li:nth-child(3){left:70%;width:20px;height:20px;animation-delay:4s;}
+    .circles li:nth-child(4){left:40%;width:60px;height:60px;animation-delay:0s;animation-duration:18s;}
+    .circles li:nth-child(5){left:65%;width:20px;height:20px;animation-delay:0s;}
+    .circles li:nth-child(6){left:75%;width:110px;height:110px;animation-delay:3s;}
+    .circles li:nth-child(7){left:35%;width:150px;height:150px;animation-delay:7s;}
+    .circles li:nth-child(8){left:50%;width:25px;height:25px;animation-delay:15s;animation-duration:45s;}
+    .circles li:nth-child(9){left:20%;width:15px;height:15px;animation-delay:2s;animation-duration:35s;}
+    .circles li:nth-child(10){left:85%;width:150px;height:150px;animation-delay:0s;animation-duration:11s;}
+    @keyframes animate{0%{transform:translateY(0) rotate(0deg);opacity:1;border-radius:0;}100%{transform:translateY(-1000px) rotate(720deg);opacity:0;border-radius:50%;}}
+    footer{position:fixed;bottom:0;left:0;width:100%;text-align:center;z-index:2;backdrop-filter:blur(5px);background-color:rgba(0,18,165,.05);padding:0.5em 0;}
+    footer a{position:relative;text-decoration:none;box-shadow:inset 0 -10px 0 #cbeeff;color:#333;font-size:14px;}
+    .dark-mode footer a{box-shadow:inset 0 -10px 0 #cbeeff00;color:#fff;font-size:14px;}
+    .search-index{z-index:2;border-radius:10px;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);background-color:rgba(0,18,165,.05);-webkit-user-select:none;user-select:none;padding:36px;margin-top:-30px;}
+    .dark-mode .search-index{background-color:rgb(255 255 255 / 5%);}
+    @media only screen and (max-width:1000px){.search-index{padding:5px;margin:10px;}fieldset{margin-top:10px;}}
+    #callboard{height:50px;line-height:20px;display:inline-block;overflow:hidden;position:relative;}
+    #callboard ul{padding:0;margin:0;}#callboard li{padding:0;overflow:hidden;display:-webkit-box;margin-left:10px;line-height:50px;text-overflow:ellipsis;-webkit-line-clamp:1;-webkit-box-orient:vertical;white-space:normal;display:flex;align-items:center;}
+    #callboard li img{margin-right:10px;width:20px;height:20px;}
+    </style>
 </head>
 
 <body>
     <main>
         <div class="columns is-centered">
               <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                  <!-- test -->
+                      <div class="area">
+        <ul class="circles">
+            <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+        </ul>
+    </div>
+    <div id="loader" class="ui-loader loader-blk" style="display: none;">
+        <svg viewBox="22 22 44 44" class="multiColor-loader">
+            <circle cx="44" cy="44" r="20.2" fill="none" stroke-width="3.6" class="loader-circle loader-circle-animation"></circle>
+        </svg>
+    </div>
                 <!-- Navigation -->
                 {%- include Nav.html -%}
 
