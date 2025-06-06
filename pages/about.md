@@ -7,7 +7,7 @@ content-type: static
 
 <span style="color: #0000ff; font-size: 20px">苦逼的80后</span>
 
-<hr width="100%" color="#a9a9a9" /> 
+<hr class="rainbow-hr">   
 
 <p class="blue-gradient-text">勉强温饱</p>
 
@@ -22,7 +22,7 @@ content-type: static
 
 **慌了人，凉了心！**
 
-<hr class="rainbow-hr">   
+<hr width="100%" color="#a9a9a9" /> 
 
 ## +86 187********
 
