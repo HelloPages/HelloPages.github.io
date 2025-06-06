@@ -35,7 +35,7 @@ WeChat;DomainsPro
 
 ## QQ
 
-<a href="https://qm.qq.com/q/3oAJ0z7uPm" target="_blank"><img src="/assets/img/qq.png" width="30" height="30" alt="189880100">  </a>
+<a href="https://qm.qq.com/q/3oAJ0z7uPm" target="_blank"><img src="/assets/img/qq.png" width="60" height="60" alt="189880100">  </a>
 
 
  <hr class="animated-rainbow-hr">
