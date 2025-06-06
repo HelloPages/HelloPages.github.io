@@ -212,3 +212,8 @@
 <!-- 居中对齐 -->
   .align-center { text-align: center; }
 
+/*   <hr  />   */
+/*   <hr width="100%" color="#a9a9a9" />   */
+/*   <hr class="rainbow-hr">  静态彩虹颜色   */
+/*  <hr class="animated-rainbow-hr"> 动态彩虹颜色   */
+
