@@ -27,8 +27,8 @@ baseurl: ""
 
 # Set title and content for private & broken link tooltop
 
-title: 新公司名称
-subtitle: 新公司标语sub
+title: Hbw.Me
+subtitle: <img src="/assets/img/logo.gif" width="30" height="30" alt="logo">
 
 privatelinks:
   title: Hbw.Me  # 主页标题
