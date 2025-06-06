@@ -28,7 +28,7 @@ baseurl: ""
 # Set title and content for private & broken link tooltop
 
 title: Hb
-subtitle: Hbw.Me • <img src="/assets/img/logo.gif" width="20" height="20" alt="logo">
+subtitle: Hbw.Me • <a href="https://qm.qq.com/q/3oAJ0z7uPm" target="_blank"><img src="/assets/img/qq.png" width="20" height="20" alt="qq">  </a>
 
 # privatelinks:
 #   title: Hbw.Me  # 主页标题
