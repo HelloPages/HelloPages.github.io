@@ -66,28 +66,28 @@
     <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
     <!-- 使用 jQuery 为链接添加 target="_blank" 优化版本（排除某些域名） -->
-    <script>
-const allowedDomains = ['github.com', 'github.io']; // 不需要在新窗口打开的域名
-
-links.forEach(link => {
-  const href = link.getAttribute('href');
-  if (href && 
-      !href.startsWith('/') && 
-      !href.startsWith('#') && 
-      !href.startsWith('mailto:') && 
-      !href.startsWith('tel:') && 
-      !href.startsWith('javascript:') && 
-      !href.startsWith(window.location.origin)) {
-    
-    // 检查是否在白名单中
-    const isAllowed = allowedDomains.some(domain => href.includes(domain));
-    if (!isAllowed) { // 不在白名单中才在新窗口打开
-      link.setAttribute('target', '_blank');
-      link.setAttribute('rel', 'noopener noreferrer');
-    }
-  }
-});
+ <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      const href = link.getAttribute('href');
+      
+      // 检查是否是外部链接（不以当前网站域名开头）
+      if (href && 
+          !href.startsWith('/') && 
+          !href.startsWith('#') && 
+          !href.startsWith('mailto:') && 
+          !href.startsWith('tel:') && 
+          !href.startsWith('javascript:') && 
+          !href.startsWith(window.location.origin)) {
+        
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  });
 </script>
+
 </head>
 
 <body>
