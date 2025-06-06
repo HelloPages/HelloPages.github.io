@@ -129,6 +129,22 @@
     100% {background-position: 0% 50%;}
   }
 
+/*   <hr  />   */
+/*   <hr class="dashed-line" />  */
+/*   <hr width="100%" color="#a9a9a9" />   */
+/*   <hr class="rainbow-hr">  静态彩虹颜色   */
+/*  <hr class="animated-rainbow-hr"> 动态彩虹颜色   */
+<!-- 水平线  颜色  虚线 -->
+<hr style="border: 1px dashed #8d87fa; border-radius: 5px; height: 0;" />
+<!-- 水平线 -->
+.dashed-line {
+  border: none; /* 移除默认边框 */
+  border-top: 1px dashed #8d87fa; /* 设置上边框为虚线 */
+  color: #8d87fa; /* 对于老版本浏览器的兼容性 */
+  background-color: #8d87fa; /* 对于老版本浏览器的兼容性 */
+  height: 1px; /* 设置高度为1像素 */
+  margin: 10px 0; /* 可选：设置上下外边距 */
+  
 /*   <hr class="rainbow-hr">  静态彩虹颜色   */
  .rainbow-hr {
     border: 0;
@@ -212,8 +228,8 @@
 <!-- 居中对齐 -->
   .align-center { text-align: center; }
 
-/*   <hr  />   */
-/*   <hr width="100%" color="#a9a9a9" />   */
-/*   <hr class="rainbow-hr">  静态彩虹颜色   */
-/*  <hr class="animated-rainbow-hr"> 动态彩虹颜色   */
+
+}
+
+
 
