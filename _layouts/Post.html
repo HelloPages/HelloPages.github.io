@@ -52,6 +52,13 @@
     <![endif]-->
     <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+    <!-- 使用 jQuery 为所有链接添加 target="_blank" 并增强安全性 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('a').attr('target', '_blank').attr('rel', 'noopener noreferrer');
+    });
+  </script>
 <!-- 百度 统计 分析 -->
 </head>
 
