@@ -1475,7 +1475,7 @@ li {
 }
 
 a[href^="http"] {
-    background-image: url(../img/link.svg);
+    background-image: url(../img/link.gif);
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 1.3rem;
