@@ -11,9 +11,11 @@ content-type: static
 
 <p class="rainbow-text">勉强温饱</p>
 
-<h4 style="text-align: left"> 不逼自己学会七十二变！</h4>
-
-<h4 style="text-align: right">谁来替你扛这八十一难！</h4>
+**世界太假，人心太深**
+***
+**无奈看不清，人生一场戏！**
+***
+**慌了人，凉了心！**
 
 ## +86 187********
 
