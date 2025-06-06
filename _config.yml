@@ -26,6 +26,10 @@ url: "https://HelloPages.github.io" # the base hostname & protocol for your site
 baseurl: ""
 
 # Set title and content for private & broken link tooltop
+
+title: 新公司名称
+subtitle: 新公司标语sub
+
 privatelinks:
   title: Hbw.Me  # 主页标题
   msg: hellopages.github.io
