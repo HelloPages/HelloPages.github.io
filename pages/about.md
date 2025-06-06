@@ -26,12 +26,17 @@ content-type: static
 
 ## +86 187********
 
-<hr width="100%" color="#a9a9a9" /> 
+<hr width="100%" color="#a9a9a9" />  
 
 <p class="rainbow-text-animated">+1（国际区号）313-389-6888 SMS</p>
 
 ## WeChat 
-WeChat;DomainsPro
+WeChat;DomainsPro 
+
+## QQ
+
+<a href="https://qm.qq.com/q/3oAJ0z7uPm" target="_blank"><img src="/assets/img/qq.png" width="30" height="30" alt="189880100">  </a>
+
 
  <hr class="animated-rainbow-hr">
  
