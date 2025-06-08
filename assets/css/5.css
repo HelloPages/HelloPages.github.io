@@ -57,6 +57,20 @@
   padding: 0;
 }
 
+.site-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  
+  a {
+    color: var(--color-text);
+    font-weight: 500;
+    
+    &:hover, &.active {
+      color: var(--color-link);
+    }
+  }
+  
 // Archive Page Styles
 .archive {
   max-width: 800px;
