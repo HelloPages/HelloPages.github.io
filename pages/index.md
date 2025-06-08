@@ -1,7 +1,7 @@
 ---
 layout: Post
 permalink: /
-title: Hbw.Me Home pages/
+title: Hbw.Me Home 
 ---
 
 
