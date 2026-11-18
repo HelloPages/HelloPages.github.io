@@ -7,5 +7,8 @@ Website repositories in the HelloPages organization remain separate from other d
 ## Current website
 
 - Storage Field Lab: https://hellopages.github.io/storage/
+- Arcade (每日一街機、心安宮): https://hellopages.github.io/arcade/
+
+Each project is maintained in its own HelloPages organization repository. Arcade source: https://github.com/HelloPages/arcade . Ongoing daily game releases should target that repository instead of the former FlySamTW preview.
 
 The sites are independent educational demos, not official Samsung-approved material.
